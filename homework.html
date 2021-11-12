@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<p>第1题</p>
+		<input type="text" value="" id="user">
+		<button>添加</button>
+		</br>
+		</br>
+		<button>清除列表</button>
+		<script src="jquery.min.js"></script>
+		<script>
+		var $user=$('#user');
+		$(('button').click(function(){
+			if($('#user').val()==' '){
+				alert('还没有填写内容！');
+			};
+		});
+		</script>
+		<br/>
+		<script>
+			document.write('第2题');
+			
+			document.write(' 1-5：c b c b d 6-10：b c d a a 11-15:c a c d b 16-20:c a b a d');
+		</script>
+		<pre>
+echo'第3题';
+echo'</br>';
+	for($i=1;$i<=100;$i++){
+		printf($i);
+		echo' ';
+		if($i%20==0)
+		echo'</br>';
+	}
+echo'</br>';
+echo'第4题';
+echo'</br>';
+	for($i=2;$i<=100;$i++){
+		if($i%2==0){
+			echo $i;
+			echo' ';
+		}
+		if($i%20==0)
+		echo'</br>';
+	}
+echo'</br>';
+echo'第5题';
+echo'</br>';
+	for($i=1;$i<=100;$i++){
+		if($i%3==0&&$i%5==0){
+			echo 'foobar';
+		}else if($i%3==0){
+				echo 'foo';
+		}else if($i%5==0){
+			echo 'bar';
+		}else{
+			echo $i;
+		}
+		echo' ';
+	}
+		</pre>
+
+	</body>
+</html>
